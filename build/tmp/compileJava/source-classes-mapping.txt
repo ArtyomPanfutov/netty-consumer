@@ -1,0 +1,9 @@
+devart/dummynettyconsumer/Application.java
+ devart.dummynettyconsumer.Application
+devart/dummynettyconsumer/config/WebClientConfiguration.java
+ devart.dummynettyconsumer.config.WebClientConfiguration
+devart/dummynettyconsumer/rest/DummyDto.java
+ devart.dummynettyconsumer.rest.DummyDto
+ devart.dummynettyconsumer.rest.DummyDto$DummyDtoBuilder
+devart/dummynettyconsumer/rest/RestController.java
+ devart.dummynettyconsumer.rest.RestController
