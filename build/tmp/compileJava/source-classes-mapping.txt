@@ -1,9 +1,8 @@
-devart/dummynettyconsumer/Application.java
- devart.dummynettyconsumer.Application
+devart/dummynettyconsumer/service/DummyDto.java
+ devart.dummynettyconsumer.service.DummyDto
 devart/dummynettyconsumer/config/WebClientConfiguration.java
  devart.dummynettyconsumer.config.WebClientConfiguration
-devart/dummynettyconsumer/rest/DummyDto.java
- devart.dummynettyconsumer.rest.DummyDto
- devart.dummynettyconsumer.rest.DummyDto$DummyDtoBuilder
-devart/dummynettyconsumer/rest/RestController.java
- devart.dummynettyconsumer.rest.RestController
+devart/dummynettyconsumer/service/DummyConsumerService.java
+ devart.dummynettyconsumer.service.DummyConsumerService
+devart/dummynettyconsumer/Application.java
+ devart.dummynettyconsumer.Application

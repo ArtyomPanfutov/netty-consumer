@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - NettyBenchmark</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>NettyBenchmark</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/devart.dummynettyconsumer.html">devart.dummynettyconsumer</a> &gt; NettyBenchmark</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1m9.21s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">executeJmhRunner()</td>
+<td class="success">1m9.21s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>21:29:54.707 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+21:29:54.718 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+21:29:54.728 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [devart.dummynettyconsumer.NettyBenchmark] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+21:29:54.735 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [devart.dummynettyconsumer.NettyBenchmark], using SpringBootContextLoader
+21:29:54.737 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [devart.dummynettyconsumer.NettyBenchmark]: class path resource [devart/dummynettyconsumer/NettyBenchmark-context.xml] does not exist
+21:29:54.738 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [devart.dummynettyconsumer.NettyBenchmark]: class path resource [devart/dummynettyconsumer/NettyBenchmarkContext.groovy] does not exist
+21:29:54.738 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [devart.dummynettyconsumer.NettyBenchmark]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:29:54.766 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [devart.dummynettyconsumer.NettyBenchmark]
+21:29:54.835 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [devart.dummynettyconsumer.NettyBenchmark]: using defaults.
+21:29:54.836 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+21:29:54.844 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+21:29:54.844 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+21:29:54.845 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@19f0642d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f60cc61, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1fa58280, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3457aece, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2e9c7565, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@67d6b713, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@54d488eb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5d7c6d61, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@10860cf6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@423a5fda]
+21:29:54.847 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6af1b27e testClass = NettyBenchmark, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6fa970ec testClass = NettyBenchmark, locations = '{}', classes = '{class devart.dummynettyconsumer.service.DummyConsumerService, class devart.dummynettyconsumer.config.WebClientConfiguration, class devart.dummynettyconsumer.service.DummyConsumerService, class devart.dummynettyconsumer.config.WebClientConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@8742806, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@354aa3b9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7a2cfcd0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7612cacd, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@68bfc084], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+21:29:54.866 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v2.1.10.RELEASE)
+
+2021-02-07 21:29:55.048  INFO 89951 --- [    Test worker] d.dummynettyconsumer.NettyBenchmark      : Starting NettyBenchmark on Artems-MacBook-Pro.local with PID 89951 (started by artyom in /Users/artyom/webmvc-client-comparison/dummy-netty-consumer)
+2021-02-07 21:29:55.050  INFO 89951 --- [    Test worker] d.dummynettyconsumer.NettyBenchmark      : No active profile set, falling back to default profiles: default
+GOGOGOGOG
+2021-02-07 21:29:55.437  INFO 89951 --- [    Test worker] d.dummynettyconsumer.NettyBenchmark      : Started NettyBenchmark in 0.563 seconds (JVM running for 1.424)
+# JMH version: 1.22
+# VM version: JDK 14.0.2, OpenJDK 64-Bit Server VM, 14.0.2+12
+# VM invoker: /Library/Java/JavaVirtualMachines/adoptopenjdk-14.jdk/Contents/Home/bin/java
+# VM options: -server
+# Warmup: 3 iterations, 10 s each
+# Measurement: 3 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: devart.dummynettyconsumer.NettyBenchmark.getDummyDto
+
+# Run progress: 0.00% complete, ETA 00:01:00
+# Fork: N/A, test runs in the host VM
+# *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
+# *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
+# Warmup Iteration   1: 200001
+200001
+200001
+200001
+200001
+200001
+200001
+200001
+200001
+1.192 s/op
+# Warmup Iteration   2: 200001
+200001
+200001
+200001
+200001
+200001
+200001
+200001
+1.322 s/op
+# Warmup Iteration   3: 200001
+200001
+200001
+200001
+200001
+200001
+200001
+200001
+200001
+200001
+1.174 s/op
+Iteration   1: 200001
+200001
+200001
+200001
+200001
+200001
+1.698 s/op
+Iteration   2: 200001
+200001
+200001
+200001
+200001
+200001
+1.824 s/op
+Iteration   3: 200001
+200001
+200001
+200001
+200001
+200001
+200001
+200001
+1.326 s/op
+
+Result &quot;devart.dummynettyconsumer.NettyBenchmark.getDummyDto&quot;:
+  1.616 ±(99.9%) 4.718 s/op [Average]
+  (min, avg, max) = (1.326, 1.616, 1.824), stdev = 0.259
+  CI (99.9%): [≈ 0, 6.334] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:08
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                   Mode  Cnt  Score   Error  Units
+NettyBenchmark.getDummyDto  avgt    3  1.616 ± 4.718   s/op
+
+Benchmark result is saved to /dev/null
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7.1</a> at Feb 7, 2021, 9:31:05 PM</p>
+</div>
+</div>
+</body>
+</html>

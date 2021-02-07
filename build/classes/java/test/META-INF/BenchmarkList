@@ -1,0 +1,1 @@
+JMH S 40 devart.dummynettyconsumer.NettyBenchmark S 70 devart.dummynettyconsumer.generated.NettyBenchmark_getDummyDto_jmhTest S 11 getDummyDto S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 7 SECONDS E E 
